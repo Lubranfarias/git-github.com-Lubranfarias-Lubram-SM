@@ -26,12 +26,15 @@ export default function HomePage() {
               <Code2 className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Lubram Smart Solutions
+              Lubram IT Solutions
             </span>
           </div>
-          <button className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105">
-            Fale Conosco
-          </button>
+          <a 
+            href="https://wa.me/5592993394017" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 inline-block"
+          >fale conosco</a>
         </div>
       </header>
 
@@ -48,7 +51,7 @@ export default function HomePage() {
                   Soluções Inteligentes em TI
                 </h1>
                 <p className="text-xl text-blue-100/80 mb-8 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  Transformamos desafios tecnológicos em oportunidades de crescimento para o seu negócio
+                  Transformando desafios tecnológicos em oportunidades de crescimento para o seu negócio.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <div className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium border border-white/20">
@@ -82,7 +85,7 @@ export default function HomePage() {
           {/* Objetivos Section */}
           <div className="mb-12">
             <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-              Nossos Objetivos
+             Focos Principais
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-gradient-to-br from-blue-600/10 to-blue-800/10 backdrop-blur-xl rounded-2xl p-6 border border-blue-500/20 hover:border-blue-400/50 transition-all duration-300 hover:scale-105 shadow-lg">
@@ -109,7 +112,7 @@ export default function HomePage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4 shadow-md shadow-purple-500/50">
                   <Target className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Resolver Dores</h3>
+                <h3 className="text-xl font-bold mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Just In Time</h3>
                 <p className="text-sm text-slate-300/80" style={{ fontFamily: 'Inter, sans-serif' }}>
                   Identificamos e solucionamos problemas específicos do seu negócio
                 </p>
@@ -188,7 +191,7 @@ export default function HomePage() {
                   <Database className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
-                  Organização de Dados
+                  Estruturação de Dados
                 </h3>
                 <p className="text-sm text-slate-300/80" style={{ fontFamily: 'Inter, sans-serif' }}>
                   Estruture e centralize suas informações
@@ -204,7 +207,7 @@ export default function HomePage() {
                   Automatizações
                 </h3>
                 <p className="text-sm text-slate-300/80" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  Processos automáticos que economizam tempo
+                  Processos automáticos que economizam o seu tempo
                 </p>
               </div>
 
@@ -285,9 +288,12 @@ export default function HomePage() {
                 Entre em contato conosco e descubra como podemos ajudar sua empresa a crescer com tecnologia
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105">
-                  Solicitar Orçamento
-                </button>
+                <a 
+                  href="https://wa.me/5592993394017?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 inline-block text-center"
+                >Solicitar Orçamento</a>
                 <button className="px-8 py-4 bg-white/10 backdrop-blur-sm rounded-xl font-bold text-lg border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
                   Saber Mais
                 </button>
@@ -302,7 +308,7 @@ export default function HomePage() {
       <footer className="relative z-10 px-6 lg:px-12 py-8 border-t border-white/10">
         <div className="max-w-7xl mx-auto text-center text-slate-400">
           <p style={{ fontFamily: 'Inter, sans-serif' }}>
-            © 2024 Lubram Smart Solutions. Todos os direitos reservados.
+            © 2026 Lubram Smart Solutions. Todos os direitos reservados.
           </p>
         </div>
       </footer>
